@@ -56,27 +56,27 @@ User Query + Website URL
 
 ## 🔄 Agent Execution Flow 
 
-1. **Goal Initialization**
+1. **Goal Initialization:**
    The agent receives a website URL and a user question.
 
-2. **Planning Phase**
+2. **Planning Phase:**
    A planning agent defines a clear navigation and verification strategy.
 
-3. **Page Exploration**
+3. **Page Exploration:**
    The agent reads the current page and cleans its content.
 
-4. **Evidence Evaluation**
+4. **Evidence Evaluation:**
    A reasoning agent evaluates whether the page contains strong evidence.
 
-5. **Decision Making**
+5. **Decision Making:**
 
    * If evidence is found → stop crawling
    * If not → discover new internal links
 
-6. **Autonomous Crawling**
+6. **Autonomous Crawling:**
    The agent follows relevant links and repeats analysis.
 
-7. **Final Answer Generation**
+7. **Final Answer Generation:**
    The agent answers using **only verified evidence** or explicitly returns **NOT FOUND**.
 
 ---
