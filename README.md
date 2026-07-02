@@ -1,4 +1,4 @@
-# Autonomous Crawling Web Intelligence Agent.
+# Autonomous Crawling Web Intelligence Agent
 
 ## 🚀 Project Overview
 
